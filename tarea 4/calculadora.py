@@ -26,7 +26,11 @@ else:
             if r==4:
                 n1=float(input("Ingrese el primer numero: "))
                 n2=float(input("Ingrese el segundo numero: "))
-                r=n1/n2
+                try:
+                    r=n1/n2
+                except ZeroDivisionError: 
+                    print("No se puede divivir entre 0")
+                    exit()
                 print(f"La division de {n1} / {n2} es = {r}")
             else:
                 print("Ingrese una opcion valida")
