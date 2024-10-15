@@ -1,0 +1,16 @@
+#Contreras osuna jose antonio #240053
+suma_temperaturas = 0
+temperatura_maxima = float('-inf')
+temperatura_minima = float('inf')
+
+for i in range(7):
+    temp = float(input(f"Ingrese la temperatura del día {i+1}: "))
+    suma_temperaturas += temp
+    if temp > temperatura_maxima:
+        temperatura_maxima = temp
+    if temp < temperatura_minima:
+        temperatura_minima = temp
+temperatura_promedio = suma_temperaturas / 7
+print(f"Temperatura promedio: {temperatura_promedio:.2f} °C")
+print(f"Temperatura más alta: {temperatura_maxima:.2f} °C")
+print(f"Temperatura más baja: {temperatura_minima:.2f} °C")

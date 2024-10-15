@@ -1,0 +1,13 @@
+#Contreras osuna jose antonio #240053
+numeros = []
+for _ in range(10):
+    numero = int(input("Ingresa un número: "))
+    numeros.append(numero)
+
+pares = sum(1 for num in numeros if num % 2 == 0 and num != 0)
+impares = sum(1 for num in numeros if num % 2 != 0)
+ceros = numeros.count(0)
+
+print(f"Números pares: {pares}")
+print(f"Números impares: {impares}")
+print(f"Ceros: {ceros}")

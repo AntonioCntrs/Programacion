@@ -1,0 +1,7 @@
+#Contreras osuna jose antonio #240053
+for i in range(1, 4):
+    print(f"Tabla de multiplicar del {i} (solo resultados pares):")
+    for j in range(1, 11):
+        resultado = i * j
+        if resultado % 2 == 0:
+            print(f"{i} x {j} = {resultado}")
