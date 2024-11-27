@@ -1,0 +1,7 @@
+numeros = []
+for _ in range(5):
+    numero = int(input("Ingresa un número: "))
+    numeros.append(numero)
+
+numeros.reverse()
+print("Números en orden inverso:", numeros)
