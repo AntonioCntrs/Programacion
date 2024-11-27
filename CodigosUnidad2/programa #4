@@ -1,0 +1,8 @@
+letras = []
+for _ in range(5):
+    letra = input("Ingresa una letra: ")
+    letras.append(letra)
+
+letra_a_buscar = input("Ingresa la letra a buscar: ")
+conteo = letras.count(letra_a_buscar)
+print(f"La letra '{letra_a_buscar}' aparece {conteo} veces en el arreglo.")
