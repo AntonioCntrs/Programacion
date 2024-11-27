@@ -6,5 +6,8 @@ for _ in range(6):
 esta_ordenado = numeros == sorted(numeros)
 if esta_ordenado:
     print("El arreglo está ordenado de menor a mayor.")
+    print("El arreglo ingresado es:", numeros)
 else:
     print("El arreglo no está ordenado de menor a mayor.")
+    print("El arreglo ordenado sería:", sorted(numeros))
+    print("El arreglo ingresado es:", numeros)
