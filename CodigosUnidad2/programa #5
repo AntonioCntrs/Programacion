@@ -1,0 +1,10 @@
+numeros = []
+for _ in range(6):
+    numero = int(input("Ingresa un número: "))
+    numeros.append(numero)
+
+esta_ordenado = numeros == sorted(numeros)
+if esta_ordenado:
+    print("El arreglo está ordenado de menor a mayor.")
+else:
+    print("El arreglo no está ordenado de menor a mayor.")
