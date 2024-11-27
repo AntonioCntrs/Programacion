@@ -1,0 +1,7 @@
+palabras = []
+for _ in range(5):
+    palabra = input("Ingresa una palabra: ")
+    palabras.append(palabra)
+
+palabras.sort()
+print("Palabras ordenadas alfabéticamente:", palabras)
